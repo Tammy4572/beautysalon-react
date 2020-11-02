@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
+import carousel from '../images/carousel.jpg';
 
 const AboutPage = () => (
     <React.Fragment>
+        <img src={carousel} alt="our salon"/>
         <h1>About Southern Roots Salon!</h1>
-        <p>Accentuate your natural beauty at our salon, located in the heart of Charleston, with professional hair coloring and nail services. Our salon offers you plush salon service, from designer haircuts to elegant facials all in an upscale, relaxing environment. With more than 25 years of collective experience, we offer you the newest high-fashion hairstyles and coloring designs, using only the finest-grade professional hair care products.
-        </p>
-         <p>We are an Exclusive Network Salon! This means that we belong to a network of Bumble and bumble salons who strictly carry and use all Bumble products. Our stylists have the opportunity to par ticipate in advanced technical training and special events offered through Bumble. We recently went to New York and completed training in Bumble's awesome Therapy Line. 4 products to help target and repair even the most damaged hair, check out product info for more details! We are also a participating "Locks of Love Salon".
-        </p>
+        <p>A salon that features the latest beauty products and services while keeping your experience very relaxed and personal. Stylists that are passionate about their art and their guests. Our goal is to create a salon experience that is pampering, relaxing and very personal with excellent results.</p>
+
+        <p>After an in-depth consultation your stylist will create a haircut, color and highlights that accents your style. We want you to not only have wonderful style when you leave the salon we also want to educate our clients in recreating and maintaining their style long after leaving the Tammy's Hair Salon. Our staff is always available to answer your questions concerning our services, products, appointments or questions concerning maintaining your look. Our first steps are listening to your needs, providing the best products and care by giving you the treatment you finally deserve!! We offer free consultations in our private room to insure your experience is comfortable.</p>
+
+        <p>Feel free to bring photos of the hairstyle, updo, perm, color or highlights you desire to achieve. If a fresh new look is your desire, allow one of our stylists to guide you into the look that is right for you. Learn more about the Southern Roots Salon staff on the "stylists" page which outlines our hair stylists experience, specialties, credentials, photos & schedules.</p>
+
     </React.Fragment>
 );
 
